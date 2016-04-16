@@ -1,7 +1,7 @@
 A very simple NoSQL db connector using Postgresql tables with JSON documents columns.
 
 # Author
-- Giovanni Damiola - <gio@archive.org>
+- Giovanni Damiola - <giovanni@archive.org>
 
 # Requirements
     python
@@ -24,5 +24,5 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU Affero General Public License for more details.
 
 You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+along with this program.  If not, see http://www.gnu.org/licenses/
 </pre>
