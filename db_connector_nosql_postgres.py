@@ -226,7 +226,7 @@ class DbConnector():
                 a list with all the results.
         """
         table_ = getattr(db, collection)
-        all_res = db_session.query(table_).order_by(sqlalchemy.desc(table_.updated_on)).order_by(sqlalchemy.desc(table_.updated_on)).limit(result_num).offset(offset)
+        all_res = db_session.query(table_).order_by(sqlalchemy.desc(table_.updated_on)).limit(result_num).offset(offset)
         return all_res
 
     def exists(self, collection, identifier):
